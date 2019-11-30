@@ -1,0 +1,83 @@
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1006l[?1005l[c(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;38r]112[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[0] 0:bash*[39m[110X[30m[110C"bomb20" 16:54 29-Nov-19(B[m[1;1H[?12l[?25h(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;38r[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[0] 0:bash*[39m[110X[30m[110C"bomb20" 16:54 29-Nov-19(B[m[1;1H[?12l[?25h[?69h[1;38r[s[1;1HTERM = screen, setting to xterm
+Unable to determine display
+ 16:54:11 up 56 days,  2:21,  8 users,  load average: 0.10, 0.30, 0.41
+[4mkst@bomb20(B[m [1mlinux-x86_64(B[m 5$ echo $TERM
+xterm
+[4mkst@bomb20(B[m [1mlinux-x86_64(B[m 6$ tmux list-sessions
+0: 1 windows (created Fri Nov 29 16:54:11 2019) (attached)
+[4mkst@bomb20(B[m [1mlinux-x86_64(B[m 7$ tmux rename-session foobar
+[?25l[30m[42m[38d[foobar] 0:bash*[39m[105X[30m[105C"bomb20" 16:54 29-Nov-19(B[m[9;1H[?12l[?25h[4mkst@bomb20(B[m [1mlinux-x86_64(B[m 8$ tmux rename-session $'\a'
